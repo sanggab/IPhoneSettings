@@ -29,7 +29,10 @@ public struct ContentView: View {
                         Section {
                             WirelessConnectivityView(viewModel: viewModel)
                         }
-
+                        
+                        Section {
+                            DigitalWellbeingHubView()
+                        }
                     }
                     
                 }

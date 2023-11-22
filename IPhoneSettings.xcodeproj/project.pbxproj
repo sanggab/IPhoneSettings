@@ -34,6 +34,11 @@
 		EF8DA4692B072A9A009ADCB2 /* WirelessConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4682B072A9A009ADCB2 /* WirelessConnectivityView.swift */; };
 		EF8DA46E2B073DD4009ADCB2 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */; };
 		EF8DA4702B0745F1009ADCB2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA46F2B0745F1009ADCB2 /* ViewExtension.swift */; };
+		EFCCBAA52B0D95E1005F2D4E /* DigitalWellbeingHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAA42B0D95E1005F2D4E /* DigitalWellbeingHubView.swift */; };
+		EFCCBAAB2B0D9671005F2D4E /* ScreenTimeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAAA2B0D9671005F2D4E /* ScreenTimeview.swift */; };
+		EFCCBAAD2B0D9676005F2D4E /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */; };
+		EFCCBAAF2B0D967B005F2D4E /* SoundsAndHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAAE2B0D967B005F2D4E /* SoundsAndHapticsView.swift */; };
+		EFCCBAB12B0D967F005F2D4E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAB02B0D967F005F2D4E /* NotificationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +89,11 @@
 		EF8DA4682B072A9A009ADCB2 /* WirelessConnectivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessConnectivityView.swift; sourceTree = "<group>"; };
 		EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		EF8DA46F2B0745F1009ADCB2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		EFCCBAA42B0D95E1005F2D4E /* DigitalWellbeingHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWellbeingHubView.swift; sourceTree = "<group>"; };
+		EFCCBAAA2B0D9671005F2D4E /* ScreenTimeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeview.swift; sourceTree = "<group>"; };
+		EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		EFCCBAAE2B0D967B005F2D4E /* SoundsAndHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsAndHapticsView.swift; sourceTree = "<group>"; };
+		EFCCBAB02B0D967F005F2D4E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +327,7 @@
 		EF8DA4622B06E737009ADCB2 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				EFCCBAA12B0D95CB005F2D4E /* DigitalWellbeingHub */,
 				EF8DA4722B0748A9009ADCB2 /* MyInfo */,
 				EF4922642B0C37D3001EA500 /* AppleOnePackage */,
 				EF8DA4712B07489C009ADCB2 /* WirelessConnectivity */,
@@ -385,6 +396,50 @@
 				EF49225F2B0C337D001EA500 /* CellularView.swift */,
 			);
 			path = Cellular;
+			sourceTree = "<group>";
+		};
+		EFCCBAA12B0D95CB005F2D4E /* DigitalWellbeingHub */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAA62B0D95F3005F2D4E /* Notifications */,
+				EFCCBAA82B0D9603005F2D4E /* SoundsAndHaptics */,
+				EFCCBAA92B0D9664005F2D4E /* Focus */,
+				EFCCBAA72B0D95FF005F2D4E /* ScreenTime */,
+				EFCCBAA42B0D95E1005F2D4E /* DigitalWellbeingHubView.swift */,
+			);
+			path = DigitalWellbeingHub;
+			sourceTree = "<group>";
+		};
+		EFCCBAA62B0D95F3005F2D4E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAB02B0D967F005F2D4E /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		EFCCBAA72B0D95FF005F2D4E /* ScreenTime */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAAA2B0D9671005F2D4E /* ScreenTimeview.swift */,
+			);
+			path = ScreenTime;
+			sourceTree = "<group>";
+		};
+		EFCCBAA82B0D9603005F2D4E /* SoundsAndHaptics */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAAE2B0D967B005F2D4E /* SoundsAndHapticsView.swift */,
+			);
+			path = SoundsAndHaptics;
+			sourceTree = "<group>";
+		};
+		EFCCBAA92B0D9664005F2D4E /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */,
+			);
+			path = Focus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,22 +573,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF49226D2B0C3A83001EA500 /* PromotionView.swift in Sources */,
+				EFCCBAA52B0D95E1005F2D4E /* DigitalWellbeingHubView.swift in Sources */,
 				EF8DA4662B07218B009ADCB2 /* ContentViewModel.swift in Sources */,
 				EF49226F2B0C3A88001EA500 /* iCloudView.swift in Sources */,
 				EF8DA4642B06E750009ADCB2 /* MyInfoView.swift in Sources */,
+				EFCCBAAF2B0D967B005F2D4E /* SoundsAndHapticsView.swift in Sources */,
 				EF49225C2B0C32D8001EA500 /* WifiView.swift in Sources */,
 				EF4922752B0C8F20001EA500 /* TextModifier.swift in Sources */,
 				EF8DA46E2B073DD4009ADCB2 /* LabelStyle.swift in Sources */,
 				EF49227A2B0C9B11001EA500 /* VPNView.swift in Sources */,
+				EFCCBAAB2B0D9671005F2D4E /* ScreenTimeview.swift in Sources */,
 				EF49225E2B0C32E9001EA500 /* AirplaneView.swift in Sources */,
 				EF8DA4272B06E50B009ADCB2 /* ContentView.swift in Sources */,
 				EF49226B2B0C3A6B001EA500 /* SoftwareUpdateView.swift in Sources */,
 				EF8DA4692B072A9A009ADCB2 /* WirelessConnectivityView.swift in Sources */,
 				EF8DA45E2B06E5B5009ADCB2 /* AppSettingViewModel.swift in Sources */,
 				EF4922692B0C3907001EA500 /* AppleOnePackageView.swift in Sources */,
+				EFCCBAB12B0D967F005F2D4E /* NotificationsView.swift in Sources */,
 				EF4922632B0C342B001EA500 /* HotspotView.swift in Sources */,
 				EF8DA45D2B06E5B5009ADCB2 /* SettingView.swift in Sources */,
 				EF49225A2B0C30E5001EA500 /* BluetoothView.swift in Sources */,
+				EFCCBAAD2B0D9676005F2D4E /* FocusView.swift in Sources */,
 				EF8DA4702B0745F1009ADCB2 /* ViewExtension.swift in Sources */,
 				EF4922602B0C337D001EA500 /* CellularView.swift in Sources */,
 				EF8DA45C2B06E5B5009ADCB2 /* AppSettingsView.swift in Sources */,
