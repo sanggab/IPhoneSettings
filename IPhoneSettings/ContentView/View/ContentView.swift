@@ -13,12 +13,39 @@ public struct ContentView: View {
     public var body: some View {
         NavigationView {
             ZStack {
-                VStack {
+                Group {
                     Form {
-                        MyInfoView(viewModel: viewModel)
+                        Section {
+                            MyInfoView(viewModel: viewModel)
+                        }
+                        .padding(.vertical, -6)
+                        
+                        Section {
+                            AppleOnePackageView()
+                        } footer: {
+                            Text("최근 구입한 Apple 기기에 포함되어 있습니다. 기기를 활성화한 후 90일 이내에 무료 체험을 시작하세요")
+                        }
+
+                        Section {
+                            WirelessConnectivityView(viewModel: viewModel)
+                        }
+
                     }
-                    .navigationTitle("설정")
+                    
                 }
+            }
+            .navigationTitle("설정")
+            .searchable(text: $viewModel.searchText, placement: .navigationBarDrawer, prompt: "검색") {
+                
+                if !viewModel.searchText.isEmpty {
+                    Color.clear
+                }
+            }
+            .onSubmit(of: .search) {
+                print("onSubmit -> \(viewModel.searchText)")
+            }
+            .onChange(of: viewModel.searchText) { newValue in
+                print("onChange -> \(newValue)")
             }
         }
     }

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF49225A2B0C30E5001EA500 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4922592B0C30E5001EA500 /* BluetoothView.swift */; };
+		EF49225C2B0C32D8001EA500 /* WifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49225B2B0C32D8001EA500 /* WifiView.swift */; };
+		EF49225E2B0C32E9001EA500 /* AirplaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49225D2B0C32E9001EA500 /* AirplaneView.swift */; };
+		EF4922602B0C337D001EA500 /* CellularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49225F2B0C337D001EA500 /* CellularView.swift */; };
+		EF4922632B0C342B001EA500 /* HotspotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4922622B0C342B001EA500 /* HotspotView.swift */; };
+		EF4922692B0C3907001EA500 /* AppleOnePackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4922682B0C3907001EA500 /* AppleOnePackageView.swift */; };
+		EF49226B2B0C3A6B001EA500 /* SoftwareUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49226A2B0C3A6B001EA500 /* SoftwareUpdateView.swift */; };
+		EF49226D2B0C3A83001EA500 /* PromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49226C2B0C3A83001EA500 /* PromotionView.swift */; };
+		EF49226F2B0C3A88001EA500 /* iCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49226E2B0C3A88001EA500 /* iCloudView.swift */; };
+		EF4922752B0C8F20001EA500 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4922742B0C8F20001EA500 /* TextModifier.swift */; };
+		EF49227A2B0C9B11001EA500 /* VPNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4922792B0C9B11001EA500 /* VPNView.swift */; };
 		EF8DA4252B06E50B009ADCB2 /* IPhoneSettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4242B06E50B009ADCB2 /* IPhoneSettingsApp.swift */; };
 		EF8DA4272B06E50B009ADCB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4262B06E50B009ADCB2 /* ContentView.swift */; };
 		EF8DA4292B06E50C009ADCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8DA4282B06E50C009ADCB2 /* Assets.xcassets */; };
@@ -20,6 +31,9 @@
 		EF8DA45F2B06E5B5009ADCB2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA45B2B06E5B5009ADCB2 /* SearchBar.swift */; };
 		EF8DA4642B06E750009ADCB2 /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4632B06E750009ADCB2 /* MyInfoView.swift */; };
 		EF8DA4662B07218B009ADCB2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4652B07218B009ADCB2 /* ContentViewModel.swift */; };
+		EF8DA4692B072A9A009ADCB2 /* WirelessConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4682B072A9A009ADCB2 /* WirelessConnectivityView.swift */; };
+		EF8DA46E2B073DD4009ADCB2 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */; };
+		EF8DA4702B0745F1009ADCB2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA46F2B0745F1009ADCB2 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF4922592B0C30E5001EA500 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		EF49225B2B0C32D8001EA500 /* WifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiView.swift; sourceTree = "<group>"; };
+		EF49225D2B0C32E9001EA500 /* AirplaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneView.swift; sourceTree = "<group>"; };
+		EF49225F2B0C337D001EA500 /* CellularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularView.swift; sourceTree = "<group>"; };
+		EF4922622B0C342B001EA500 /* HotspotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotspotView.swift; sourceTree = "<group>"; };
+		EF4922682B0C3907001EA500 /* AppleOnePackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleOnePackageView.swift; sourceTree = "<group>"; };
+		EF49226A2B0C3A6B001EA500 /* SoftwareUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareUpdateView.swift; sourceTree = "<group>"; };
+		EF49226C2B0C3A83001EA500 /* PromotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionView.swift; sourceTree = "<group>"; };
+		EF49226E2B0C3A88001EA500 /* iCloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudView.swift; sourceTree = "<group>"; };
+		EF4922742B0C8F20001EA500 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		EF4922792B0C9B11001EA500 /* VPNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNView.swift; sourceTree = "<group>"; };
 		EF8DA4212B06E50B009ADCB2 /* IPhoneSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPhoneSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8DA4242B06E50B009ADCB2 /* IPhoneSettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneSettingsApp.swift; sourceTree = "<group>"; };
 		EF8DA4262B06E50B009ADCB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +81,9 @@
 		EF8DA45B2B06E5B5009ADCB2 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		EF8DA4632B06E750009ADCB2 /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
 		EF8DA4652B07218B009ADCB2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		EF8DA4682B072A9A009ADCB2 /* WirelessConnectivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessConnectivityView.swift; sourceTree = "<group>"; };
+		EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		EF8DA46F2B0745F1009ADCB2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +111,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF4922612B0C3423001EA500 /* HotSpot */ = {
+			isa = PBXGroup;
+			children = (
+				EF4922622B0C342B001EA500 /* HotspotView.swift */,
+			);
+			path = HotSpot;
+			sourceTree = "<group>";
+		};
+		EF4922642B0C37D3001EA500 /* AppleOnePackage */ = {
+			isa = PBXGroup;
+			children = (
+				EF4922662B0C38E8001EA500 /* Promotion */,
+				EF4922672B0C38EF001EA500 /* SoftwareUpdate */,
+				EF4922652B0C38E1001EA500 /* iCloud */,
+				EF4922682B0C3907001EA500 /* AppleOnePackageView.swift */,
+			);
+			path = AppleOnePackage;
+			sourceTree = "<group>";
+		};
+		EF4922652B0C38E1001EA500 /* iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				EF49226E2B0C3A88001EA500 /* iCloudView.swift */,
+			);
+			path = iCloud;
+			sourceTree = "<group>";
+		};
+		EF4922662B0C38E8001EA500 /* Promotion */ = {
+			isa = PBXGroup;
+			children = (
+				EF49226C2B0C3A83001EA500 /* PromotionView.swift */,
+			);
+			path = Promotion;
+			sourceTree = "<group>";
+		};
+		EF4922672B0C38EF001EA500 /* SoftwareUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				EF49226A2B0C3A6B001EA500 /* SoftwareUpdateView.swift */,
+			);
+			path = SoftwareUpdate;
+			sourceTree = "<group>";
+		};
+		EF4922762B0C9AEA001EA500 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				EF4922792B0C9B11001EA500 /* VPNView.swift */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
 		EF8DA4182B06E50A009ADCB2 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +254,7 @@
 		EF8DA4522B06E528009ADCB2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EF8DA46A2B073DC3009ADCB2 /* Modifier */,
 				EF8DA4542B06E54A009ADCB2 /* Extensions */,
 				EF8DA4532B06E543009ADCB2 /* Resources */,
 			);
@@ -192,6 +272,7 @@
 		EF8DA4542B06E54A009ADCB2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EF8DA46F2B0745F1009ADCB2 /* ViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -236,9 +317,74 @@
 		EF8DA4622B06E737009ADCB2 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				EF8DA4632B06E750009ADCB2 /* MyInfoView.swift */,
+				EF8DA4722B0748A9009ADCB2 /* MyInfo */,
+				EF4922642B0C37D3001EA500 /* AppleOnePackage */,
+				EF8DA4712B07489C009ADCB2 /* WirelessConnectivity */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EF8DA46A2B073DC3009ADCB2 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */,
+				EF4922742B0C8F20001EA500 /* TextModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		EF8DA4712B07489C009ADCB2 /* WirelessConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA4732B0748B1009ADCB2 /* Airplane */,
+				EF8DA4742B0748B7009ADCB2 /* Wifi */,
+				EF8DA4752B0748BA009ADCB2 /* Bluetooth */,
+				EF8DA4762B0748BF009ADCB2 /* Cellular */,
+				EF4922612B0C3423001EA500 /* HotSpot */,
+				EF4922762B0C9AEA001EA500 /* VPN */,
+				EF8DA4682B072A9A009ADCB2 /* WirelessConnectivityView.swift */,
+			);
+			path = WirelessConnectivity;
+			sourceTree = "<group>";
+		};
+		EF8DA4722B0748A9009ADCB2 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA4632B06E750009ADCB2 /* MyInfoView.swift */,
+			);
+			path = MyInfo;
+			sourceTree = "<group>";
+		};
+		EF8DA4732B0748B1009ADCB2 /* Airplane */ = {
+			isa = PBXGroup;
+			children = (
+				EF49225D2B0C32E9001EA500 /* AirplaneView.swift */,
+			);
+			path = Airplane;
+			sourceTree = "<group>";
+		};
+		EF8DA4742B0748B7009ADCB2 /* Wifi */ = {
+			isa = PBXGroup;
+			children = (
+				EF49225B2B0C32D8001EA500 /* WifiView.swift */,
+			);
+			path = Wifi;
+			sourceTree = "<group>";
+		};
+		EF8DA4752B0748BA009ADCB2 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				EF4922592B0C30E5001EA500 /* BluetoothView.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		EF8DA4762B0748BF009ADCB2 /* Cellular */ = {
+			isa = PBXGroup;
+			children = (
+				EF49225F2B0C337D001EA500 /* CellularView.swift */,
+			);
+			path = Cellular;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,11 +517,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF49226D2B0C3A83001EA500 /* PromotionView.swift in Sources */,
 				EF8DA4662B07218B009ADCB2 /* ContentViewModel.swift in Sources */,
+				EF49226F2B0C3A88001EA500 /* iCloudView.swift in Sources */,
 				EF8DA4642B06E750009ADCB2 /* MyInfoView.swift in Sources */,
+				EF49225C2B0C32D8001EA500 /* WifiView.swift in Sources */,
+				EF4922752B0C8F20001EA500 /* TextModifier.swift in Sources */,
+				EF8DA46E2B073DD4009ADCB2 /* LabelStyle.swift in Sources */,
+				EF49227A2B0C9B11001EA500 /* VPNView.swift in Sources */,
+				EF49225E2B0C32E9001EA500 /* AirplaneView.swift in Sources */,
 				EF8DA4272B06E50B009ADCB2 /* ContentView.swift in Sources */,
+				EF49226B2B0C3A6B001EA500 /* SoftwareUpdateView.swift in Sources */,
+				EF8DA4692B072A9A009ADCB2 /* WirelessConnectivityView.swift in Sources */,
 				EF8DA45E2B06E5B5009ADCB2 /* AppSettingViewModel.swift in Sources */,
+				EF4922692B0C3907001EA500 /* AppleOnePackageView.swift in Sources */,
+				EF4922632B0C342B001EA500 /* HotspotView.swift in Sources */,
 				EF8DA45D2B06E5B5009ADCB2 /* SettingView.swift in Sources */,
+				EF49225A2B0C30E5001EA500 /* BluetoothView.swift in Sources */,
+				EF8DA4702B0745F1009ADCB2 /* ViewExtension.swift in Sources */,
+				EF4922602B0C337D001EA500 /* CellularView.swift in Sources */,
 				EF8DA45C2B06E5B5009ADCB2 /* AppSettingsView.swift in Sources */,
 				EF8DA4252B06E50B009ADCB2 /* IPhoneSettingsApp.swift in Sources */,
 				EF8DA45F2B06E5B5009ADCB2 /* SearchBar.swift in Sources */,
