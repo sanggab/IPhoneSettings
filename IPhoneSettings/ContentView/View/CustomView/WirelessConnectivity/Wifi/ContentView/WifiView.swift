@@ -8,8 +8,10 @@
 import SwiftUI
 
 public struct WifiView: View {
+    @EnvironmentObject private var viewModel: ContentViewModel
+    
     public var body: some View {
-        NavigationLink(destination: Text("와이파이다!")) {
+        NavigationLink(destination: WifiSettingView().environmentObject(viewModel)) {
             HStack {
                 Label("Wi-Fi", systemImage: "wifi")
                     .labelStyle(LabelImageStyle(color: .blue, size: CGSize(width: 28, height: 28), cornerRadius: 7))
@@ -17,7 +19,7 @@ public struct WifiView: View {
 
                 Spacer()
 
-                Text("심상갑 네트워크-50G")
+                Text(viewModel.getConnectedWifiModel()?.name ?? "")
                     .modifier(TextModifier(foregroundColor: .gray, alignment: .trailing, fontDesign: .rounded))
             }
         }

@@ -9,6 +9,7 @@ import SwiftUI
 
 public struct ContentView: View {
     @StateObject private var viewModel = ContentViewModel()
+    @State private var hinice: Bool = false
     
     public var body: some View {
         NavigationView {
@@ -27,7 +28,8 @@ public struct ContentView: View {
                         }
 
                         Section {
-                            WirelessConnectivityView(viewModel: viewModel)
+                            WirelessConnectivityView()
+                                .environmentObject(viewModel)
                         }
                         
                         Section {

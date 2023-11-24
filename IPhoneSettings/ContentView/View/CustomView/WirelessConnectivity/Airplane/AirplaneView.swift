@@ -8,7 +8,7 @@
 import SwiftUI
 
 public struct AirplaneView: View {
-    @ObservedObject public var viewModel: ContentViewModel
+    @EnvironmentObject private var viewModel: ContentViewModel
     
     public var body: some View {
         HStack {
@@ -30,6 +30,6 @@ public struct AirplaneView: View {
 
 struct AirplaneView_Previews: PreviewProvider {
     static var previews: some View {
-        AirplaneView(viewModel: .init())
+        AirplaneView()
     }
 }

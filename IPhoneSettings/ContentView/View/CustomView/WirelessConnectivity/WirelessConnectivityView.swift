@@ -8,11 +8,11 @@
 import SwiftUI
 
 public struct WirelessConnectivityView: View {
-    @ObservedObject public var viewModel: ContentViewModel
+    @EnvironmentObject private var viewModel: ContentViewModel
     
     public var body: some View {
         
-        AirplaneView(viewModel: viewModel)
+        AirplaneView()
 
         WifiView()
         
@@ -22,12 +22,13 @@ public struct WirelessConnectivityView: View {
         
         HotspotView()
         
-        VPNView(viewModel: viewModel)
+        VPNView()
+        
     }
 }
 
 struct WirelessConnectivityView_Previews: PreviewProvider {
     static var previews: some View {
-        WirelessConnectivityView(viewModel: .init())
+        WirelessConnectivityView()
     }
 }

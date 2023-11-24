@@ -39,6 +39,13 @@
 		EFCCBAAD2B0D9676005F2D4E /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */; };
 		EFCCBAAF2B0D967B005F2D4E /* SoundsAndHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAAE2B0D967B005F2D4E /* SoundsAndHapticsView.swift */; };
 		EFCCBAB12B0D967F005F2D4E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAB02B0D967F005F2D4E /* NotificationsView.swift */; };
+		EFCCBAB52B0DB66C005F2D4E /* WifiSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAB42B0DB66C005F2D4E /* WifiSettingView.swift */; };
+		EFCCBAB82B0DB748005F2D4E /* WifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAB72B0DB748005F2D4E /* WifiListView.swift */; };
+		EFCCBABC2B0DD60B005F2D4E /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBABB2B0DD60B005F2D4E /* ImageModifier.swift */; };
+		EFCCBABF2B0DE63F005F2D4E /* MyNetworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBABE2B0DE63F005F2D4E /* MyNetworksView.swift */; };
+		EFCCBAC32B0EDB73005F2D4E /* WifiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAC22B0EDB73005F2D4E /* WifiModel.swift */; };
+		EFCCBAC82B102408005F2D4E /* OtherNetworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBAC72B102408005F2D4E /* OtherNetworksView.swift */; };
+		EFCCBACC2B1058A7005F2D4E /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCBACB2B1058A7005F2D4E /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +101,13 @@
 		EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 		EFCCBAAE2B0D967B005F2D4E /* SoundsAndHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsAndHapticsView.swift; sourceTree = "<group>"; };
 		EFCCBAB02B0D967F005F2D4E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		EFCCBAB42B0DB66C005F2D4E /* WifiSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSettingView.swift; sourceTree = "<group>"; };
+		EFCCBAB72B0DB748005F2D4E /* WifiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListView.swift; sourceTree = "<group>"; };
+		EFCCBABB2B0DD60B005F2D4E /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		EFCCBABE2B0DE63F005F2D4E /* MyNetworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworksView.swift; sourceTree = "<group>"; };
+		EFCCBAC22B0EDB73005F2D4E /* WifiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiModel.swift; sourceTree = "<group>"; };
+		EFCCBAC72B102408005F2D4E /* OtherNetworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherNetworksView.swift; sourceTree = "<group>"; };
+		EFCCBACB2B1058A7005F2D4E /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +263,7 @@
 		EF8DA4502B06E516009ADCB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EFCCBAC22B0EDB73005F2D4E /* WifiModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +354,8 @@
 			isa = PBXGroup;
 			children = (
 				EF8DA46D2B073DD4009ADCB2 /* LabelStyle.swift */,
+				EFCCBACB2B1058A7005F2D4E /* ButtonStyle.swift */,
+				EFCCBABB2B0DD60B005F2D4E /* ImageModifier.swift */,
 				EF4922742B0C8F20001EA500 /* TextModifier.swift */,
 			);
 			path = Modifier;
@@ -377,7 +394,8 @@
 		EF8DA4742B0748B7009ADCB2 /* Wifi */ = {
 			isa = PBXGroup;
 			children = (
-				EF49225B2B0C32D8001EA500 /* WifiView.swift */,
+				EFCCBAB32B0DB652005F2D4E /* WifiSettingView */,
+				EFCCBAB22B0DB64C005F2D4E /* ContentView */,
 			);
 			path = Wifi;
 			sourceTree = "<group>";
@@ -440,6 +458,49 @@
 				EFCCBAAC2B0D9676005F2D4E /* FocusView.swift */,
 			);
 			path = Focus;
+			sourceTree = "<group>";
+		};
+		EFCCBAB22B0DB64C005F2D4E /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				EF49225B2B0C32D8001EA500 /* WifiView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		EFCCBAB32B0DB652005F2D4E /* WifiSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAB62B0DB741005F2D4E /* CustomView */,
+				EFCCBABD2B0DE631005F2D4E /* MyNetworks */,
+				EFCCBAC42B1023F4005F2D4E /* Other Networks */,
+				EFCCBAB42B0DB66C005F2D4E /* WifiSettingView.swift */,
+			);
+			path = WifiSettingView;
+			sourceTree = "<group>";
+		};
+		EFCCBAB62B0DB741005F2D4E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAB72B0DB748005F2D4E /* WifiListView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EFCCBABD2B0DE631005F2D4E /* MyNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBABE2B0DE63F005F2D4E /* MyNetworksView.swift */,
+			);
+			path = MyNetworks;
+			sourceTree = "<group>";
+		};
+		EFCCBAC42B1023F4005F2D4E /* Other Networks */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCBAC72B102408005F2D4E /* OtherNetworksView.swift */,
+			);
+			path = "Other Networks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,13 +636,18 @@
 				EF49226D2B0C3A83001EA500 /* PromotionView.swift in Sources */,
 				EFCCBAA52B0D95E1005F2D4E /* DigitalWellbeingHubView.swift in Sources */,
 				EF8DA4662B07218B009ADCB2 /* ContentViewModel.swift in Sources */,
+				EFCCBAB82B0DB748005F2D4E /* WifiListView.swift in Sources */,
 				EF49226F2B0C3A88001EA500 /* iCloudView.swift in Sources */,
+				EFCCBAB52B0DB66C005F2D4E /* WifiSettingView.swift in Sources */,
 				EF8DA4642B06E750009ADCB2 /* MyInfoView.swift in Sources */,
 				EFCCBAAF2B0D967B005F2D4E /* SoundsAndHapticsView.swift in Sources */,
 				EF49225C2B0C32D8001EA500 /* WifiView.swift in Sources */,
 				EF4922752B0C8F20001EA500 /* TextModifier.swift in Sources */,
+				EFCCBAC32B0EDB73005F2D4E /* WifiModel.swift in Sources */,
+				EFCCBACC2B1058A7005F2D4E /* ButtonStyle.swift in Sources */,
 				EF8DA46E2B073DD4009ADCB2 /* LabelStyle.swift in Sources */,
 				EF49227A2B0C9B11001EA500 /* VPNView.swift in Sources */,
+				EFCCBAC82B102408005F2D4E /* OtherNetworksView.swift in Sources */,
 				EFCCBAAB2B0D9671005F2D4E /* ScreenTimeview.swift in Sources */,
 				EF49225E2B0C32E9001EA500 /* AirplaneView.swift in Sources */,
 				EF8DA4272B06E50B009ADCB2 /* ContentView.swift in Sources */,
@@ -592,10 +658,12 @@
 				EFCCBAB12B0D967F005F2D4E /* NotificationsView.swift in Sources */,
 				EF4922632B0C342B001EA500 /* HotspotView.swift in Sources */,
 				EF8DA45D2B06E5B5009ADCB2 /* SettingView.swift in Sources */,
+				EFCCBABF2B0DE63F005F2D4E /* MyNetworksView.swift in Sources */,
 				EF49225A2B0C30E5001EA500 /* BluetoothView.swift in Sources */,
 				EFCCBAAD2B0D9676005F2D4E /* FocusView.swift in Sources */,
 				EF8DA4702B0745F1009ADCB2 /* ViewExtension.swift in Sources */,
 				EF4922602B0C337D001EA500 /* CellularView.swift in Sources */,
+				EFCCBABC2B0DD60B005F2D4E /* ImageModifier.swift in Sources */,
 				EF8DA45C2B06E5B5009ADCB2 /* AppSettingsView.swift in Sources */,
 				EF8DA4252B06E50B009ADCB2 /* IPhoneSettingsApp.swift in Sources */,
 				EF8DA45F2B06E5B5009ADCB2 /* SearchBar.swift in Sources */,

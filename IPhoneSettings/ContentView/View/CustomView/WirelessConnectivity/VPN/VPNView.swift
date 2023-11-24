@@ -8,7 +8,7 @@
 import SwiftUI
 
 public struct VPNView: View {
-    @ObservedObject public var viewModel: ContentViewModel
+    @EnvironmentObject private var viewModel: ContentViewModel
     
     public var body: some View {
         Toggle(isOn: $viewModel.vpnState) {
@@ -37,6 +37,6 @@ public struct VPNView: View {
 
 struct VPNView_Previews: PreviewProvider {
     static var previews: some View {
-        VPNView(viewModel: .init())
+        VPNView()
     }
 }
