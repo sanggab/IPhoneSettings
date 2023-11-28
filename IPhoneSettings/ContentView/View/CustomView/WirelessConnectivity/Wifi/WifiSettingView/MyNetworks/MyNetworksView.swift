@@ -11,11 +11,18 @@ public struct MyNetworksView: View {
     @EnvironmentObject private var viewModel: ContentViewModel
     
     public var body: some View {
-        ForEach($viewModel.wifiModel, id: \.self) { model in
-            if !model.wrappedValue.isConnected && model.wrappedValue.isSelcted {
-                WifiListView(wifiModel: model)
+        if viewModel.getWifiModel(type: .my)?.isEmpty == false {
+            Section("my networks") {
+                ForEach($viewModel.wifiModel.indices, id: \.self) { idx in
+                    let model = viewModel.getWifiModel(idx: idx)
+                    
+                    if !model.isConnected && model.type == .my {
+                        WifiListView(idx: idx)
+                    }
+                }
             }
         }
+        
     }
 }
 

@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct OtherNetworksView: View {
-    @EnvironmentObject private var viewMoel: ContentViewModel
+    @EnvironmentObject private var viewModel: ContentViewModel
     
     var body: some View {
-        ForEach($viewMoel.wifiModel, id: \.self) { model in
-            if !model.wrappedValue.isConnected && !model.wrappedValue.isSelcted {
-                WifiListView(wifiModel: model)
+        if viewModel.getWifiModel(type: .other)?.isEmpty == false {
+            Section("other networks") {
+                ForEach($viewModel.wifiModel.indices, id: \.self) { idx in
+                    let model = viewModel.getWifiModel(idx: idx)
+                    
+                    if !model.isConnected && model.type == .other {
+                        WifiListView(idx: idx)
+                    }
+                }
             }
         }
     }
